@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(82, 82, 82);
 }
 
 p {
@@ -10,5 +10,11 @@ p {
 .bg-white {
     background-color: white;
     color: rgb(44, 44, 44);
+    width: fit-content;
+}
+
+.bg-dark {
+    background-color: rgb(37, 37, 37);
+    color: rgb(252, 252, 252);
     width: fit-content;
 }
