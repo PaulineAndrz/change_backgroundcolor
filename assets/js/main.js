@@ -25,3 +25,4 @@ button2.addEventListener("click", () => {
     }
 })
 
+// Attention, className écrase toutes les autres classes. Donc a utiliser si l'élément n'a pas d'autres classes.
