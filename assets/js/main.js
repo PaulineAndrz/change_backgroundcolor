@@ -1,7 +1,7 @@
 let button = document.querySelector("#button");
-let body = document.querySelector("body");
+let paragraph = document.querySelector("#paragraph");
 
-console.log(button)
 button.addEventListener("click", () => {
-    body.classList.toggle("bg-white");
+    paragraph.classList.toggle("bg-white");
 });
+

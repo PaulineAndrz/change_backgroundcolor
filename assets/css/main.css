@@ -3,7 +3,12 @@ body {
     background-color: rgb(56, 56, 56);
 }
 
+p {
+    padding: 0.2rem;
+}
+
 .bg-white {
     background-color: white;
     color: rgb(44, 44, 44);
+    width: fit-content;
 }
