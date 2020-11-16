@@ -2,10 +2,10 @@ let button1 = document.querySelector("#button1");
 let button2 =  document.querySelector("#button2");
 let paragraph = document.querySelector("#paragraph");
 
-function changeColor (remove, add) {
-    paragraph.classList.remove(remove);
-    paragraph.classList.add(add);
-}
+// function changeColor (remove, add) {
+//     paragraph.classList.remove(remove);
+//     paragraph.classList.add(add);
+// }
 
 button1.addEventListener("click", () => {
     paragraph.classList.toggle("bg-white");
@@ -17,9 +17,11 @@ button1.addEventListener("click", () => {
 
 button2.addEventListener("click", () => {
     if (paragraph.classList.contains("bg-white")) {
-        changeColor("bg-white", "bg-dark");
+        // changeColor("bg-white", "bg-dark");
+        paragraph.className = "bg-dark";
     } else {
-        changeColor("bg-dark", "bg-white");
+        //changeColor("bg-dark", "bg-white");
+        paragraph.className = "bg-white";
     }
 })
 
